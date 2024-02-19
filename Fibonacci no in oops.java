@@ -31,7 +31,7 @@ public class Main{
     
   static void powerOfTwo(int n)
   {
-    int temp=2,i=1,j=0;
+    int temp=2,j=0;
     while(temp<=n)
       {
         if(n==temp){
@@ -40,7 +40,6 @@ public class Main{
         }
       
     temp*=2;
-    i++;
   }
   }
 }
