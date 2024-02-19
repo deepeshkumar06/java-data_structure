@@ -34,4 +34,13 @@ public class Main{
     int temp=2,i=1,j=0;
     while(temp<=n)
       {
+        if(n==temp){
+          System.out.println(n+" is a power of two");
+          break;
+        }
+      
+    temp*=2;
+    i++;
+  }
+  }
 }
