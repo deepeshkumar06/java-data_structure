@@ -23,7 +23,7 @@ public class Main{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    Child c = new Child();
+    AbstractClass c = new Child();
     c.setdata(n);
     c.getdata(n);
   }
