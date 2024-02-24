@@ -23,7 +23,7 @@ public class Main{
     b = sc.nextInt();
     s = sc.nextInt();
     r = sc.nextInt();
-    Area a = new Area();
+    Shape a = new Area();
     a.rectangleArea(l,b);
     a.squareArea(s);
     a.circleArea(r);
