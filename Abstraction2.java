@@ -21,7 +21,7 @@ public class Main{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     int m1,m2,m3,m4,m5,m6,m7;
-    B b = new B();
+    A b = new B();
     m1 = sc.nextInt();
     m2 = sc.nextInt();
     m3 = sc.nextInt();
