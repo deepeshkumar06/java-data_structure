@@ -1,4 +1,3 @@
-
 import java.util.*;
 abstract class Shape{
   abstract void rectangleArea(int l,int b);
